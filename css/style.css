@@ -35,7 +35,7 @@ ul#horizontal-list {
 ul#horizontal-list li {
     display: inline;
     padding: 0 26.6px;
-    padding-bottom: 9px;
+    padding-bottom: 8px;
     margin: 0; 
 }
 ul#horizontal-list li:first-child img{
@@ -47,10 +47,10 @@ ul#horizontal-list li:nth-child(n){
 ul#horizontal-list li{
     display: inline-block;
     float: left;
-    
+    border-right: 1px solid black;
     padding: 0 20px;
     vertical-align: middle;
-    height: 30px;padding-top: 7px;
+    height: 30px;padding-top: 6px;
 }
 ul#horizontal-list li:first-of-type {
     margin: 0;
@@ -144,8 +144,8 @@ ul#horizontal-list span {
     padding: 0;
     margin-top: -7px;
 }
-ul#horizontal-list li:first-child span {
-    margin-top: -31px;
+ul#horizontal-list li:first-child {
+    
 }
 
 .appleLogo{
@@ -156,6 +156,19 @@ ul#horizontal-list li:first-child span {
     width: 80px;
     height: 35px;
     margin-top: -12px;
+}
+.text{
+    margin: 0 auto;
+    width: 70%;
+}
+.text1, .text2, .text3{
+   
+}
+.text3{
+    margin-top: 30px;
+}
+.text3:hover{
+    background-image: url(../img/text3-a.png);
 }
 
 .test{
@@ -171,6 +184,9 @@ ul#horizontal-list li:first-child span {
 .conUl{
     z-index:1; top:540px; right:0; bottom:0; left:0; margin:0; min-width:980px; width:100%;  padding:0; zoom: 1; position:absolute;
 }
+.contenN{
+    width: 1000px;
+}
 .contentN ul{
     margin: 0;
     text-align: center;
@@ -180,7 +196,8 @@ ul#horizontal-list li:first-child span {
     
 }
 .contentN img{
-    width: 27.85em;
+    width: 24.6%;
+    
 }
 
 .footStyle{ position:absolute; z-index:1; top:750px; right:0; bottom:0; left:0; margin:0; min-width:980px; width:100%; height:90; padding:0; color:#6e6e6e; font-size:.8334em; line-height:1.2; text-align:center; zoom:1;  }
