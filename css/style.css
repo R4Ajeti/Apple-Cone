@@ -182,22 +182,12 @@ ul#horizontal-list li:first-child {
 }
 
 .conUl{
-    z-index:1; top:540px; right:0; bottom:0; left:0; margin:0; min-width:980px; width:100%;  padding:0; zoom: 1; position:absolute;
-}
-.contenN{
-    width: 1000px;
-}
-.contentN ul{
+    z-index:1; top:530px; right:0; bottom:0; left:0; margin:0; min-width:980px; width:100%;  padding:0; zoom: 1; position:absolute;
     margin: 0;
     text-align: center;
 }
-.contentN li{
-    display: inline;
-    
-}
-.contentN img{
-    width: 24.6%;
-    
+.contenN{
+    width: 1000px;
 }
 
 .footStyle{ position:absolute; z-index:1; top:750px; right:0; bottom:0; left:0; margin:0; min-width:980px; width:100%; height:90; padding:0; color:#6e6e6e; font-size:.8334em; line-height:1.2; text-align:center; zoom:1;  }
@@ -213,3 +203,9 @@ ul#horizontal-list li:first-child {
 .footContainer ul{ margin: 0; }
 .div-right li{ display: inline; }
 .div-right li a{ text-decoration: none; }
+
+.conUl a:nth-child(n){width: 24.7%;height: 200px; display: inline-block;}
+.conUl a:nth-child(1){background-image: url(../img/frame1.jpg);}
+.conUl a:nth-child(2){background-image: url(../img/frame2.jpg);}
+.conUl a:nth-child(3){background-image: url(../img/frame3.jpg);}
+.conUl a:nth-child(4){background-image: url(../img/frame4.jpg);}
