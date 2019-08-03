@@ -196,10 +196,11 @@ ul#horizontal-list li:first-child {
 .footContainer:after { content:'.'; display:block; visibility:hidden; clear:both; height:0; }
 .footContainer .div-left{ float:left; width:47%;  }
 .footContainer .div-right{ float:right; width: 49%; }
+.div-left p{ text-align: left; }
 .footContainer .left { padding-top: 1.5em; text-align: left; }
 .footContainer .right{ padding-top: 0.9em; text-align: right;}
 .footContainer .left, .footContainer .right, {}
-.footContainer .clear { clear: both; padding-left:6px; padding-top: 0.0em; }
+.footContainer .clear { clear: both; padding-top: 0.0em; }
 
 .footContainer ul{ margin: 0; }
 .div-right li{ display: inline; }
