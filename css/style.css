@@ -107,7 +107,7 @@ ul#horizontal-list input {
     width:100px;
 }
 input {
-    -webkit-writing-mode: horizontal-tb !important;
+    -webkit-writing-mode: horizontal-tb ;
     text-rendering: auto;
     color: initial;
     letter-spacing: normal;
